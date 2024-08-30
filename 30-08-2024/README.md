@@ -32,3 +32,7 @@ find student those who grade=A+
 #task4
 
 use $and, $nor, $or, $not
+
+#task 5
+
+use $exists, $type
