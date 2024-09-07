@@ -31,7 +31,7 @@
 // chitkara> db.faculty.estimatedDocumentCount()
 // 5
 
-//TASK 1:-
+// TASK 1:-
 
 // chitkara> db.student.updateMany( {},{ $set:{subject:"DataScience", address:"Chitkara University"} } )
 // {
@@ -42,7 +42,7 @@
 //   upsertedCount: 0
 // }
 
-//TASK 2:-
+// TASK 2:-
 
 // chitkara> db.student.bulkWrite([{
 // ...     updateOne: {
@@ -87,7 +87,7 @@
 // }
 
 
-//TASK 3:-
+// TASK 3:-
 
 // chitkara> db.student.find({age:22,marks:90})
 // [
@@ -165,7 +165,7 @@
 
 // TASK 4:-
 
-//$and
+// $and
 
 // chitkara> db.student.find({ $and: [ { age: 22 }, { marks: 90 }] })
 // [
@@ -180,7 +180,7 @@
 //   }
 // ]
 
-//$or
+// $or
 
 // chitkara> db.student.find({ $or: [ { age: 22 }, { marks: 90 }] })
 // [
@@ -195,7 +195,7 @@
 //   }
 // ]
 
-//$nor
+// $nor
 
 // chitkara> db.student.find({ $nor: [ { age: 22 }, { marks: 90 }] })
 // [
@@ -238,7 +238,7 @@
 // ]
 
 
-//$not 
+// $not 
 
 // chitkara> db.student.find({ age: { $not: { $eq: 22 } } })
 // [
@@ -280,9 +280,9 @@
 //   }
 // ]
 
-//task5:-
+// task5:-
 
-//$exists
+// $exists
 
 // chitkara> db.student.find({ address: { $exists: true } })
 // [
@@ -333,7 +333,7 @@
 //   }
 // ]
 
-//$type:-
+// $type:-
 
 // chitkara> db.student.find({ age: { $type: "number" } })
 // [

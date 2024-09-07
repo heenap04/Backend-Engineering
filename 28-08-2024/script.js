@@ -18,13 +18,13 @@
 //    2024-08-28T10:05:36.557+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
 // ------
 
-// test> show dbs
+// test> show dbs 
 // admin   40.00 KiB
 // config  72.00 KiB
 // local   40.00 KiB
 // test> db
 // test
-// test> use chitkara
+// test> use chitkara 
 // switched to db chitkara
 
 // chitkara> db.createCollection("students")
